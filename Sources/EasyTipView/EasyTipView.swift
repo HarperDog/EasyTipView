@@ -308,7 +308,7 @@ open class EasyTipView: UIView {
     }
     
     fileprivate weak var presentingView: UIView?
-    fileprivate weak var delegate: EasyTipViewDelegate?
+    public weak var delegate: EasyTipViewDelegate?
     fileprivate var arrowTip = CGPoint.zero
     fileprivate(set) open var preferences: Preferences
     private let content: Content
